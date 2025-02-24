@@ -1,4 +1,3 @@
-// script.js
 let totalCompra = 0;
 let progresso = 0;
 const limite = 100;
@@ -38,5 +37,8 @@ function iniciarProgresso() {
         }
         progresso += 1;
         document.getElementById("progress").style.width = progresso + "%";
+        
+        // Atualiza o percentual no HTML
+        document.getElementById("percentual").innerText = progresso + "%";
     }, 100);
 }
