@@ -10,7 +10,7 @@ body {
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
-    align-items: center;  /* Alinha verticalmente no centro */
+    align-items: center;  
     min-height: 100vh;
     padding: 20px;
     flex-direction: column;  /* Organiza o conteúdo na direção vertical */
